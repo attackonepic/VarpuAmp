@@ -2,7 +2,7 @@ from pygame import mixer
 import pygame
 import os
 
-path_song = r"C:\Users\villa\OneDrive\Escritorio\Matias\Varpu-amp\Ziggy Stardust and the Spiders from Mars"
+path_song = # Here I hardcoded a path from my own hard drive
 
 songs = [file for file in os.listdir(path_song)]
 
