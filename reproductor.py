@@ -38,8 +38,6 @@ btn_decreaseVolume.config(width=button_width, height=button_height)
 btn_next.config(width=button_width, height=button_height)
 btn_previous.config(width=button_width, height=button_height)
 
-
-
 btn_stop.grid(row=2, column=1, sticky="nsew", columnspan=1)
 btn_pause.grid(row=2, column=0, sticky="nsew", columnspan=1)
 btn_resume.grid(row=2, column=2, sticky="nsew", columnspan=1)
