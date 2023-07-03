@@ -24,12 +24,12 @@ def stop_audio():
 
 def increase_volume():
     current_volume = mixer.music.get_volume()
-    new_volume = min(current_volume + 0.1, 1.0)  # Increase the volume by 0.1 (maximum 1.0)
+    new_volume = min(current_volume + 0.1, 1.0)  
     mixer.music.set_volume(new_volume)
 
 def decrease_volume():
     current_volume = mixer.music.get_volume()
-    new_volume = max(current_volume - 0.1, 0.0)  # Decrease the volume by 0.1 (minimum 0.0)
+    new_volume = max(current_volume - 0.1, 0.0)  
     mixer.music.set_volume(new_volume)
     
 def next_song():
